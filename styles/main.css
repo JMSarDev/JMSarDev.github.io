@@ -1,0 +1,94 @@
+ *{
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+ }
+ 
+ .header{
+     position: relative;
+ }
+ 
+ .background{
+     width: 100%;
+ }
+ 
+.avatar{
+     width: 100%;
+     position: relative;
+     text-align: center;
+ }
+ 
+.avatar img{
+    border: 2px solid white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: -18%;
+    width: 32%;
+    max-width: 350px;
+}
+
+.podcast{
+    width: 25%;
+    max-width: 280px;
+}
+ 
+ h1, h2{
+     font-weight: bold;
+ }
+ 
+ #status{
+     color: #94A3A8;
+     font-size: 20px;
+ }
+ 
+ .contact img{
+     width: 70%;
+     max-width: 200px;
+ }
+ 
+ #github{
+     position: absolute;
+     top: 0;
+     right: 0;
+ }
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s; 
+ }
+ 
+ .btn + .btn {
+    margin-left: 1rem; 
+ }
+
+.btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3); 
+ }
+  
+  a:focus{
+      outline: none; 
+  }
+  
+  a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #27AE61 url("../images/up-arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
